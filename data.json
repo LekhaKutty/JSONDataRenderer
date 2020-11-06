@@ -1,0 +1,26 @@
+{
+    "device1": {
+        "format": ["index", "time", "value"],
+        "content": [ 
+            [0, "t0", "device1-value@t0"],
+            [1, "t1", "device1-value@t1"],
+            [2, "t2", "device1-value@t2"]
+        ]
+    },
+    "device2": {
+        "format": ["index", "value"],
+        "content": [ 
+            [0, "device2-value@t0"],
+            [1, "device2-value@t1"],
+            [2, "device2-value@t2"]
+        ]
+    },
+    "device3": {
+        "format": ["index", "time", "value","time2"],
+        "content": [ 
+            [0, "t0", "device3-value@t0","t2-0"],
+            [1, "t1", "device3-value@t1","t2-1"],
+            [2, "t2", "device3-value@t2","t2-2"]
+        ]
+    }
+}
